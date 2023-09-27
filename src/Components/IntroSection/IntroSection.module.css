@@ -1,13 +1,13 @@
 .section2 {
     background: #1e1e1e;
-    padding: 40px 167px;
+    padding: 140px 167px 40px 167px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .lets {
-    width: 387px;
+    width: 475px;
     height: 174px;
 }
 
@@ -31,7 +31,7 @@
 
 .verticalLine {
     border-left: 1px solid gray;
-    height: 174px;
+    height: 200px;
 }
 
 @media (max-width: 1020px) {

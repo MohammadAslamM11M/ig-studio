@@ -5,9 +5,11 @@ const FAQSection = () => {
     return (
         <div>
             <div className={styles.section7}>
-                <p>FAQ</p>
                 <div className={styles.box}>
-                    <div className={styles.left}></div>
+                    <div className={styles.left}>
+                        <h1>FAQ</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    </div>
                     <div className={styles.right}>
                         <p>Do I need a personal injury report?</p>
                         <span>

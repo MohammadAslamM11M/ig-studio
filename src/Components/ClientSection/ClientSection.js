@@ -12,11 +12,11 @@ const ClientSection = () => {
             <div className={styles.section5}>
                 <div className={styles.say}>
                     <p>What says our happy Clients</p>
-                    <div className={styles.elipce}>
-                        <button>
+                    <div>
+                        <button className={styles.elipce} style={{cursor: "pointer"}}>
                             <img src={Group40} alt="" />
                         </button>
-                        <button>
+                        <button className={styles.elipce} style={{cursor: "pointer"}}>
                             <img src={Group41} alt="" />
                         </button>
                     </div>
@@ -28,7 +28,7 @@ const ClientSection = () => {
                         <a href="">Ceo of Hunt</a>
                         <span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
                         <form action="">
-                            <button>Read More</button>
+                            <button style={{cursor: "pointer"}}>Read More</button>
                         </form>
                     </div>
                     <div className={styles.card}>
@@ -37,7 +37,7 @@ const ClientSection = () => {
                         <a href="">Ceo of Hunt</a>
                         <span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
                         <form action="">
-                            <button>Read More</button>
+                            <button style={{cursor: "pointer"}}>Read More</button>
                         </form>
                     </div>
                     <div className={styles.card}>
@@ -46,7 +46,7 @@ const ClientSection = () => {
                         <a href="">Ceo of Hunt</a>
                         <span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</span>
                         <form action="">
-                            <button>Read More</button>
+                            <button style={{cursor: "pointer"}}>Read More</button>
                         </form>
                     </div>
                 </div>

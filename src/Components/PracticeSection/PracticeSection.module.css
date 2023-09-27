@@ -5,6 +5,7 @@
     line-height: 143.02%;
     color: #ffffff;
     text-align: center;
+    padding-top: 65px;
     padding-bottom: 65px;
 }
 
@@ -19,6 +20,10 @@
     margin-top: 15px;
 }
 
+.practImg:hover {
+    filter: brightness(1.5);
+    transition: 0.2s ease-out;
+}
 
 @media (max-width: 1138px) {
     .box {

@@ -38,6 +38,10 @@ nav {
     color: #ffffff;
 }
 
+.navCenter :hover {
+    color: rgb(130, 130, 130);
+}
+
 .icon button {
     display: none;
 }
@@ -54,6 +58,13 @@ nav {
     color: #ffffff;
     border: 2px solid #ffffff;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.contactBtn:hover {
+    color: #e3b748;
+    box-shadow: rgb(58, 67, 77) 0px 20px 30px -10px !important;
+    transition: 0.2s ease-out;
 }
 
 .textHolder p {

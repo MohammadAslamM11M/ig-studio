@@ -41,7 +41,7 @@ const HeroSection = () => {
                                 <input type="text" placeholder="Enter your eamil address" />
                             </form>
                             <form action="">
-                                <button>Let’s Talk</button>
+                                <button style={{cursor: "pointer"}}>Let’s Talk</button>
                             </form>
                         </div>
                     </div>

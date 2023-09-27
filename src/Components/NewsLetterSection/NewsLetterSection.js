@@ -10,7 +10,7 @@ const NewsLetterSection = () => {
                     <div className={styles.log}>
                         <input className={styles.input} type="text" placeholder="Name : " />
                         <input type="email" placeholder="Enter your Email" />
-                        <button>SEND</button>
+                        <button className={styles.send}>SEND</button>
                     </div>
                 </div>
             </div>

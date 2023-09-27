@@ -15,23 +15,23 @@ const TeamSection = () => {
                 <div className={styles.danielCard}>
                     <div className={styles.cardFirst}>
                         <div className={styles.cardD}>
-                            <img src={Ellipse17} alt="" />
+                            <img src={Ellipse22} alt="" />
                             <div className={styles.pDflex}>
                                 <p>Danial Def</p>
                                 <span>301 Cases</span>
                             </div>
                         </div>
                         <div className={styles.cardD}>
-                            <img src={Ellipse18} alt="" />
+                            <img src={Ellipse17} alt="" />
                             <div className={styles.pDflex}>
-                                <p>Danial Def</p>
+                                <p>Sanfole</p>
                                 <span>301 Cases</span>
                             </div>
                         </div>
                         <div className={styles.cardD}>
                             <img src={Ellipse19} alt="" />
                             <div className={styles.pDflex}>
-                                <p>Danial Def</p>
+                                <p>Cesforila</p>
                                 <span>301 Cases</span>
                             </div>
                         </div>
@@ -40,21 +40,21 @@ const TeamSection = () => {
                         <div className={styles.cardD}>
                             <img src={Ellipse20} alt="" />
                             <div className={styles.pDflex}>
-                                <p>Danial Def</p>
+                                <p>Haldone</p>
                                 <span>301 Cases</span>
                             </div>
                         </div>
                         <div className={styles.cardD}>
                             <img src={Ellipse21} alt="" />
                             <div className={styles.pDflex}>
-                                <p>Danial Def</p>
+                                <p>Colleen</p>
                                 <span>301 Cases</span>
                             </div>
                         </div>
                         <div className={styles.cardD}>
-                            <img src={Ellipse22} alt="" />
+                            <img src={Ellipse18} alt="" />
                             <div className={styles.pDflex}>
-                                <p>Danial Def</p>
+                                <p>Nik Jeo</p>
                                 <span>301 Cases</span>
                             </div>
                         </div>

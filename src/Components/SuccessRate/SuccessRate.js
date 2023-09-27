@@ -16,29 +16,29 @@ const SuccessRate = () => {
                             consequatduis enim velit mollit Exer.
                         </span>
                         <form action="">
-                            <button>Read More</button>
+                            <button style={{cursor: "pointer"}}>Read More</button>
                         </form>
                     </div>
                     <div className={styles.card}>
                         <img src={Success} alt="" />
-                        <p>98% Success Rate</p>
+                        <p>100% Success Rate</p>
                         <span>
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                             consequatduis enim velit mollit Exer.
                         </span>
                         <form action="">
-                            <button>Read More</button>
+                            <button style={{cursor: "pointer"}}>Read More</button>
                         </form>
                     </div>
                     <div className={styles.card}>
                         <img src={Success} alt="" />
-                        <p>98% Success Rate</p>
+                        <p>100% Success Rate</p>
                         <span>
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                             consequatduis enim velit mollit Exer.
                         </span>
                         <form action="">
-                            <button>Read More</button>
+                            <button style={{cursor: "pointer"}}>Read More</button>
                         </form>
                     </div>
                 </div>

@@ -14,16 +14,16 @@ const PracticeSection = () => {
                 <p>Area of Practices</p>
                 <div className={styles.imgHolder}>
                     <div className={styles.box}>
-                        <img src={Rectangle3652} alt="" />
-                        <img src={Rectangle3651} alt="" />
+                        <img className={styles.practImg} src={Rectangle3652} alt="" />
+                        <img className={styles.practImg} src={Rectangle3651} alt="" />
                     </div>
                     <div className={styles.box}>
-                        <img src={Rectangle3653} alt="" />
-                        <img src={Rectangle3654} alt="" />
+                        <img className={styles.practImg} src={Rectangle3653} alt="" />
+                        <img className={styles.practImg} src={Rectangle3654} alt="" />
                     </div>
                     <div className={styles.box}>
-                        <img src={Rectangle3656} alt="" />
-                        <img src={Rectangle3655} alt="" />
+                        <img className={styles.practImg} src={Rectangle3656} alt="" />
+                        <img className={styles.practImg} src={Rectangle3655} alt="" />
                     </div>
                 </div>
             </div>
