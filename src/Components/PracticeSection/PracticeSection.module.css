@@ -1,0 +1,63 @@
+.section4 p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 143.02%;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.section4 {
+    background-color: #1e1e1e;
+}
+
+.box {
+    display: flex;
+    justify-content: center !important;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 1138px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 797px) {
+    .box img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section4 > p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1273px) {
+    .say p {
+        font-size: 30px;
+    }
+    .say {
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 1273px) {
+    .say p {
+        font-size: 30px;
+    }
+    .say {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

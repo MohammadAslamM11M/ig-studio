@@ -1,0 +1,100 @@
+.section5 {
+    background-color: #1e1e1e;
+    padding: 40px 167px;
+    padding-top: 186px;
+}
+
+.section5 p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    color: #ffffff;
+}
+
+.say {
+    display: flex;
+    justify-content: space-between;
+}
+
+.say button {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e3b748;
+}
+
+.janeAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.card p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.card span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 162.52%;
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.card button {
+    width: 121px;
+    height: 43px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 162.52%;
+    color: #000000;
+    background: #e3b748;
+    border-radius: 23.5px;
+}
+
+.card {
+    width: 359px;
+    height: 377px;
+    background: #1d1d1d;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+}
+
+.card h1 {
+    color: #ffffff;
+}
+
+.card a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.card:hover {
+    background: #2e2e2e;
+}
+
+@media (max-width: 660px) {
+    .section5 {
+        padding: 40px;
+    }
+}

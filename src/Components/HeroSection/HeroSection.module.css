@@ -1,0 +1,240 @@
+.wrapper {
+    background: #111111;
+    height: 100vh;
+    width: 100%;
+    padding: 40px 167px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navStart a {
+    color: white;
+    font-size: 28px;
+}
+
+.navStart {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.navCenter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    left: 40%;
+}
+
+.navCenter a {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.icon button {
+    display: none;
+}
+
+.contactBtn {
+    width: 172px;
+    height: 47px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin-left: 10px;
+}
+
+.textHolder p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 147.52%;
+    color: #ffffff;
+}
+
+.textHolder span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 162.52%;
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.inpBtn {
+    width: 438px;
+    height: 74px;
+    background: #ffffff;
+    border-radius: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    margin-top: 37px;
+}
+
+.inpBtn input {
+    border: none;
+    padding-left: 37px;
+    outline: none;
+    font-size: 15px;
+}
+
+.inpBtn button {
+    width: 137px;
+    height: 62px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    background: #e3b748;
+    border-radius: 43px;
+}
+
+.textHolder {
+    width: 467.71px;
+    height: 467.71px;
+    gap: 36px;
+}
+
+.mainHolder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 72px;
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        max-width: 1330px;
+    }
+
+    .mainHolder img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .mainHolder {
+        display: flex;
+        align-items: center;
+    }
+
+    .textHolder p {
+        font-size: 30px;
+    }
+
+    .textHolder span {
+        font-size: 15px;
+    }
+
+    .inpBtn {
+        width: 400px;
+        height: 50px;
+    }
+
+    .inpBtn button {
+        height: 40px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .section1 {
+        padding: 40px 40px;
+    }
+
+    .mainHolder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 976px) {
+    .mainHolder img {
+        width: 400px;
+        height: 400px;
+        display: none;
+    }
+
+    .mainHolder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+    }
+
+    .navCenter a {
+        font-size: 12px;
+    }
+
+    .navEnd button {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .navCenter {
+        display: none;
+    }
+
+    .navStart {
+        display: none;
+    }
+
+    .btnBlock {
+        display: block;
+        width: 60px;
+        height: 40px;
+        background: none;
+        color: white;
+        border: 2px solid red;
+    }
+}
+
+@media (max-width: 496px) {
+    .textHolder p {
+        font-size: 10px;
+    }
+
+    .textHolder span {
+        font-size: 8px;
+    }
+
+    .textHolder {
+        width: 300px;
+    }
+
+    .inpBtn {
+        width: 200px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .inpBtn button {
+        height: 30px;
+        width: 50px;
+        font-size: 10px;
+    }
+
+    .inpBtn input {
+        width: 100px;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,129 @@
+.section7 {
+    background-color: #1e1e1e;
+    padding: 40px 167px;
+    padding-top: 186px;
+}
+
+.box {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 39px;
+}
+
+.right > p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.p {
+    width: 539px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #272727;
+    padding-top: 34px;
+}
+
+.p > p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.plus {
+    width: 28px;
+    height: 28px;
+    background: #e3b748;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 53px 97px;
+    color: #ffffff;
+    background-color: #1e1e1e;
+    padding: 40px 167px;
+    padding-top: 186px;
+}
+
+
+@media (max-width: 1039px) {
+    .section7 {
+        padding: 20px;
+    }
+}
+@media (max-width: 801px) {
+    .right > p {
+        font-size: 15px;
+    }
+    .right > span {
+        font-size: 10px;
+    }
+    .p p {
+        font-size: 14px;
+    }
+    .p {
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+        border: none;
+        align-items: flex-start;
+        width: 240px;
+    }
+    .logIn p {
+        font-size: 20px;
+    }
+    .log input {
+        width: 100px;
+        height: 40px;
+        font-size: 9px;
+        padding-left: 5px;
+    }
+    .log button {
+        width: 100px;
+        height: 40px;
+        font-size: 9px;
+    }
+    #input {
+        width: 100px;
+        height: 40px;
+        font-size: 9px;
+        padding-left: 5px;
+    }
+}
+@media (max-width: 390px) {
+    .section7 > p {
+        display: none;
+    }
+    .section7 {
+        padding: 1px;
+    }
+    .p {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+    .log {
+        display: flex;
+        flex-direction: column;
+    }
+    .logIn {
+        margin-top: 30px;
+    }
+}
